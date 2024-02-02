@@ -217,7 +217,7 @@ p{
 }
 
 #container_card{
-    display: inline-block;
+    display: block;
     width: 100%;
 }
 
@@ -225,8 +225,8 @@ p{
 .container{
     width: 75%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    text-align: center;
 }
   
 .card-white{
@@ -274,7 +274,6 @@ p{
     font-weight: 600;
     border-radius: 51px;
     font-family: 'Open Sans', sans-serif;
-    display: inline-block
 }
 
 #container_btn{
@@ -471,8 +470,10 @@ p{
 }
 
 .container_client{
+    width: 100%;
+    display: block;
+    margin: auto;
     text-align: center;
-    display: inline-block;
 }
 
 
@@ -539,7 +540,7 @@ p{
     object-fit: cover;
     box-shadow: 0px 10px 20px rgba(227, 224, 224, 0.5);
 
-}                 KKPK
+}                 
 
     #logo_agence{
         width: 45%;
