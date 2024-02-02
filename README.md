@@ -1,1 +1,0 @@
-# puzzle-paint_responsible
