@@ -1,0 +1,589 @@
+body{
+    background-color: white;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 500;
+    font-size: clamp(11px,2vw,18px);
+    margin: 0;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(25px,5vw,50px);
+    color: white;
+    font-weight: 600;
+}
+  
+h2{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 700;
+}
+
+h3{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin-left: 15px;
+}
+
+
+#global {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; /* largeur obligatoire pour être centré */
+}
+
+
+/*                                               Partie entête                                                           */
+
+
+
+
+#logo_agence{
+    width: 25%;
+    padding-left: 18px;
+    padding-bottom: 15px;
+    margin-top: 13px;
+}
+
+#first_banner{
+    grid-template-columns: 1fr 1fr ;
+    display: grid;
+    grid-gap: 16px;
+    background-color: #22DB99;
+    height: 85px;
+    width: 100%;
+}
+
+
+.text_inline{
+    list-style-type: none;
+    display: inline;
+}
+
+.btn-brown{
+    background-color: black;
+    color: black;
+    font-weight: 600;
+    border-radius: 51px;
+    font-family: 'Chivo', sans-serif;
+    padding: 10px 40px;
+}
+
+
+
+#text_decoration{
+    text-decoration: none;
+    font-family: 'Chivo', sans-serif;
+    color: white;
+    font-weight: 570;
+    font-size: clamp(11px,2vw,16px);
+    margin-top: 40px;
+}
+
+
+
+.text_button{
+    text-decoration: none;
+    font-family: 'Chivo', sans-serif;
+    color: white;
+    font-weight: 570;
+}
+
+.btn-brown:hover{
+    background-color: #eae0b7;
+}
+
+
+
+#banner_menu{
+    text-decoration: none;
+    margin-left: 80px;
+    grid-template-columns: 1fr 1fr ;
+    display: grid;
+    grid-gap: 60px;
+}
+
+.text_button btn-brown{
+    padding-top: 80px;
+}
+
+#tarif_banner{
+    padding-top: 35px;
+}
+
+#banner_button{
+    padding-top: 35px;
+}
+
+/*                                               Partie image de couverture                                                           */
+
+
+
+.banner {
+    padding: 130px 0;
+    margin: 0;
+    background-image: url('image/image_couv.jpeg');
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+#banner_h1{
+    margin-bottom: 55px;
+}
+  
+  #banner-p {
+    font-size: clamp(14px,2vw,24px);
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+
+#btn-black_banner{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 600;
+    border-radius: 51px;
+    font-family: 'Open Sans', sans-serif;
+}
+  
+#btn-black_banner:hover{
+    background-color: #eae0b7;
+}
+
+/*                                               Différents modèles                                                        */
+
+
+.card-white-img_2{
+    height: 90%;
+    width: 100%;
+}
+
+#differents_modeles{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 700;
+    font-size: clamp(20px,5vw,40px);
+    margin-left: auto;
+    color: rgb(28, 103, 63);
+    text-align: center;
+}
+
+#inline_block{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+/*                                               Description du kit                                                        */
+
+.image_desc_kit_complet{
+    height: 60%;
+    width: 45%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#desc_kit_complet_h2{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 700;
+    font-size: clamp(20px,5vw,40px);
+    color: rgb(28, 103, 63);
+    display: inline-block
+}
+
+
+/*                                               Card                                                         */
+
+
+#pourquoi_acheter{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 700;
+    font-size: clamp(20px,5vw,40px);
+    color: rgb(28, 103, 63);
+    text-align: center;
+}
+
+#container_card{
+    display: inline-block;
+    width: 100%;
+}
+
+
+.container{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.card-white{
+    padding: 10px;
+
+}
+  
+.card-white-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0px 10px 20px rgba(149, 143, 143, 0.5);
+
+}
+
+#card_left{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ 
+  
+.cards{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-bottom: 100px;
+    background-color: white;
+    width: 90%;
+    text-align: center;
+}
+
+
+/*                                             Contactez-nous                                                    */
+
+
+  
+#btn-black {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 600;
+    border-radius: 51px;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block
+}
+
+#container_btn{
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+
+#btn-black:hover{
+    opacity: 0.8;
+}
+
+
+
+/*                                             Avis de nos clients                                                    */
+
+#h2_avis_client{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 700;
+    font-size: clamp(20px,5vw,40px);
+    color: rgb(28, 103, 63);
+    margin-bottom: 60px;
+    display: inline-block;
+}
+
+.card-white_client{
+        background-color: white;
+        padding: 10px;
+        box-shadow: 0px 10px 20px rgba(19, 101, 16, 0.2);
+    }
+
+.cards_avis{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-bottom: 50px;
+    width: 80%;
+    text-align: center;
+}
+
+.class_block{
+    width: 90%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+
+#cards_avis_bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+#name_button_MA{
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 600;
+    border-radius: 100px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 25px;   
+}
+
+
+#name_button_LM{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 600;
+    border-radius: 100px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 25px;
+    margin-right: 20px;    
+}
+
+
+
+#name_button_TB{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 600;
+    border-radius: 100px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 25px;    
+}
+
+
+.text_inline_client{
+    list-style-type: none;
+    display: inline;
+}
+
+.prenom_h3{
+    text-align: left;
+    margin-right: 170px;
+}
+
+.kit_instructif{
+    text-align: left;
+    margin-left: 17px;
+}
+
+.client_p{
+    text-align: justify;
+    font-size: clamp(10px,2vw,15px);
+}
+
+#image_avis{
+    list-style-type: none;
+    display: inline;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+#card_right_client{
+    margin-right: 1px;
+    width: 100%;
+}
+
+
+#card_left_client{
+    margin-left: 5px;
+    width: 100%;
+}
+
+
+
+/*                                              Vidéo                                                      */
+
+
+
+#video_inline{
+    list-style-type: none;
+    display: inline;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-bottom: 100px;
+}
+
+.desc_image1{
+    height: 70%;
+    width: 50%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desc_image{
+    height: 60%;
+    width: 50%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desc_text{
+ text-align: center;
+}
+
+
+#image_desc{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 340px;
+    width: 100%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.desc_p{
+    text-align: justify;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+#detail_accessoire{
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+#container_video{
+    text-align: center;
+}
+
+.container_client{
+    text-align: center;
+    display: inline-block;
+}
+
+
+#h2_kit_video{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 700;
+    font-size: clamp(20px,5vw,40px);
+    padding-left: auto;
+    color: rgb(28, 103, 63);
+    display: inline-block
+}
+
+
+/*                                               Bas de page                                                          */
+
+
+
+
+#footer{
+    margin-top: 100px;
+    background-color: black;
+    text-align: center;
+    color: black;
+    height: 150px;
+    }
+    
+.footer_p{
+    padding-top: 70px;
+    color: black;
+}
+
+
+/*                                               responsive telephone               */                                         
+
+@media(max-width: 500px){
+    .cards{
+        flex-direction: column;
+        background-color: white;
+        margin-bottom: 0px;
+    }
+
+
+
+    .cards_avis{
+        flex-direction: column;
+        display: inline-block
+
+    }
+
+    #cards_avis_bottom{
+        flex-direction: column;
+    }
+    
+    
+
+    .card-white{
+        padding: 0px;    
+    }
+
+      
+.card-white-img{
+    height: 70%;
+    width: 70%;
+    object-fit: cover;
+    box-shadow: 0px 10px 20px rgba(227, 224, 224, 0.5);
+
+}                 KKPK
+
+    #logo_agence{
+        width: 45%;
+        padding-left: 7px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+
+    }
+    
+    .btn-brown{
+        background-color: black;
+        font-weight: 600;
+        border-radius: 51px;
+        font-family: 'Chivo', sans-serif;
+        padding: 10px 20px;
+    }
+
+    
+    #banner_menu{
+        text-decoration: none;
+        margin-left: 10px;
+        grid-template-columns: 1fr 1fr ;
+        display: grid;
+        grid-gap: 1px;
+    }
+
+    #card_right_client{
+        margin-right: 0px;
+    }
+    
+    #card_left_client{
+        margin-left: 0px;
+    }
+    
+    .image_desc_kit_complet{
+        height: 80%;
+        width: 75%;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+        margin-bottom: 40px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+}
