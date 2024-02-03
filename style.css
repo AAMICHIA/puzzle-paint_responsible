@@ -499,7 +499,7 @@ p{
 
 /*                                               responsive telephone               */                                         
 
-@media(max-width: 1000px){
+@media(max-width: 1500px){
     .cards{
         flex-direction: column;
         background-color: white;
